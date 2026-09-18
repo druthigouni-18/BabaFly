@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+@import "tailwindcss";
+
+:root {
+  font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    sans-serif;
+  color: #1f2937;
+  background: #fafafa;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background: #fafafa;
+}
+
+button,
+a,
+input,
+select,
+textarea {
+  transition: all 0.2s ease;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: not-allowed;
+}
